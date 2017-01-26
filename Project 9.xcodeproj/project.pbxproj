@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7F31A0CD1C0DF167004D0FBE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F31A0CC1C0DF167004D0FBE /* main.cpp */; };
+		7F31A0D51C0DF186004D0FBE /* Trie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F31A0D31C0DF186004D0FBE /* Trie.cpp */; };
+		7F31A0D81C0DF76D004D0FBE /* TrieNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F31A0D61C0DF76D004D0FBE /* TrieNode.cpp */; };
+		7F31A0DA1C0E574B004D0FBE /* TrieDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F31A0D91C0E574B004D0FBE /* TrieDriver.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		7F31A0C91C0DF167004D0FBE /* Project 9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Project 9"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7F31A0CC1C0DF167004D0FBE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		7F31A0D31C0DF186004D0FBE /* Trie.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Trie.cpp; sourceTree = "<group>"; };
+		7F31A0D41C0DF186004D0FBE /* Trie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Trie.h; sourceTree = "<group>"; };
+		7F31A0D61C0DF76D004D0FBE /* TrieNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TrieNode.cpp; sourceTree = "<group>"; };
+		7F31A0D71C0DF76D004D0FBE /* TrieNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrieNode.h; sourceTree = "<group>"; };
+		7F31A0D91C0E574B004D0FBE /* TrieDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TrieDriver.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,11 @@
 		7F31A0C01C0DF167004D0FBE = {
 			isa = PBXGroup;
 			children = (
+				7F31A0D31C0DF186004D0FBE /* Trie.cpp */,
+				7F31A0D41C0DF186004D0FBE /* Trie.h */,
+				7F31A0D61C0DF76D004D0FBE /* TrieNode.cpp */,
+				7F31A0D91C0E574B004D0FBE /* TrieDriver.cpp */,
+				7F31A0D71C0DF76D004D0FBE /* TrieNode.h */,
 				7F31A0CB1C0DF167004D0FBE /* Project 9 */,
 				7F31A0CA1C0DF167004D0FBE /* Products */,
 			);
@@ -57,7 +68,6 @@
 		7F31A0CB1C0DF167004D0FBE /* Project 9 */ = {
 			isa = PBXGroup;
 			children = (
-				7F31A0CC1C0DF167004D0FBE /* main.cpp */,
 			);
 			path = "Project 9";
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F31A0CD1C0DF167004D0FBE /* main.cpp in Sources */,
+				7F31A0D51C0DF186004D0FBE /* Trie.cpp in Sources */,
+				7F31A0D81C0DF76D004D0FBE /* TrieNode.cpp in Sources */,
+				7F31A0DA1C0E574B004D0FBE /* TrieDriver.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +249,7 @@
 				7F31A0D21C0DF167004D0FBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
